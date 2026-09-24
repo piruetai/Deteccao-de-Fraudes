@@ -70,13 +70,6 @@ Usando **SHAP**, foi possível entender quais variáveis mais influenciaram cada
 - Separação treino/teste com `stratify=y`, garantindo que a proporção de fraudes seja mantida em ambos os conjuntos.
 - Uso de curvas **ROC** e **Precision-Recall** para visualizar o comportamento do modelo além de um único ponto de corte.
 
-## 🚀 Possíveis Melhorias Futuras
-
-- Validação cruzada estratificada (`StratifiedKFold`) para resultados mais robustos
-- Tuning de hiperparâmetros (`GridSearchCV`, `RandomizedSearchCV` ou Optuna)
-- Testar combinações de oversampling (SMOTE) com undersampling
-- Ensemble entre LightGBM, XGBoost e Random Forest
-- Engenharia de features adicionais a partir de `Time`
 
 ## ▶️ Como Executar
 
